@@ -1,0 +1,71 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+#game input {
+  border: none;
+  outline: none;
+  width: 2em; 
+  height: 2em; 
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#game button {
+  background-color: #A1D490;
+  border: none;
+  outline: none;
+  width: 9em;
+  height: 2em;
+  border-radius: 4px;
+  margin-left: 10.5em;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: #424242;
+}
+#game button:active{
+  background-color: #9BCC8B;
+  transform: translate(1px, 1px);
+}
+
+.disableddiv {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.finiBanner {
+  position: absolute;
+  top: 10em;
+  left: 1.5em;
+  width: 27em;
+  height: 10em;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 4px;
+}
+
+.congrats{
+  text-align: center;
+}
+.congrats h1{
+  color: white;
+}
+.congrats button{
+  border-radius: 4px;
+  font-size: 1em; 
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 9em;
+  height: 2.2em;
+}
+.congrats button:active{
+  background-color: grey;
+  transform: translate(1px, 1px);
+}
